@@ -10,7 +10,7 @@ namespace TeamManager.Models
         public string FirstName { get; set; } = default!;
         [MaxLength(100)]
         public string LastName { get; set; } = default!;
-        public DateOnly? BirthDate { get; set; } = default!;
+        public DateTime? BirthDate { get; set; } = default!;
         [MaxLength(3)]
         public string JerseyNumber { get; set; } = default!;
         [MaxLength(14)]

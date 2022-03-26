@@ -44,6 +44,9 @@
                     State = "MO",
                     Zip = "63031"
                 });
+
+                context.SaveChanges();
             }
         }
+    }
 }

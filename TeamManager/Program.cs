@@ -31,6 +31,11 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+    //using (var context = new ApplicationDbContext())
+    //{
+    //    SeedData.SeedDatabase(context);
+    //}
+
 }
 else
 {
